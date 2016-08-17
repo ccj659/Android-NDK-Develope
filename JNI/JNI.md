@@ -33,7 +33,8 @@
 
 ##完整源文件
  - ###相关java文件
- ```java
+ 
+```java
 package com.ccj.jni;
 
 import java.util.Random;
@@ -102,7 +103,7 @@ public class JniDemo {
  - ###相关c文件
 
 
- ```c
+```c
 
 #define _CRT_SECURE_NO_WARNINGS
 #include "com_ccj_jni_JniDemo.h"
