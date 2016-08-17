@@ -99,7 +99,8 @@ public class JniDemo {
 
 ```
 
- -  ###相关c文件
+ - ###相关c文件
+
 
  ```c
 
@@ -243,4 +244,4 @@ JNIEXPORT void JNICALL Java_com_ccj_jni_JniDemo_accessStaticMethod
 };
 
 
- ```
+```
