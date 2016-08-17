@@ -101,7 +101,7 @@ public class JniDemo {
 
  -  ###相关c文件
 
-```c
+ ```c
 
 #define _CRT_SECURE_NO_WARNINGS
 #include "com_ccj_jni_JniDemo.h"
@@ -243,4 +243,4 @@ JNIEXPORT void JNICALL Java_com_ccj_jni_JniDemo_accessStaticMethod
 };
 
 
-```
+ ```
