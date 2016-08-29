@@ -6,7 +6,8 @@ Learning Android NDK started from 0.
 [JNI中java和c的相互调用](https://github.com/ccj659/Android-NDK-Develope/blob/master/JNI/JNI.md)
 
 ##C++部分
-###in progress
+1.[c++中命名空间,引用,函数,构造函数笔记](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/Cpp.md)
+
 ##音视频处理
 ###in progress
 ##NDK
