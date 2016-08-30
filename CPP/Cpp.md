@@ -92,6 +92,7 @@ void main(){
 
 ```
 ##4.函数
+###4.1函数基本
 ```c
 //函数默认参数
 /*
@@ -163,6 +164,53 @@ void main(){
 
 	system("pause");
 }
+```
+###4.2函数指针和指针函数
+- 辨别方式就是看函数名前面的指针*号有没有被括号（）包含，如果被包含就是函数指针，反之则是指针函数。一个是指针变量，一个是函数
+	
+```c
+void MyFun(int x) /* 这里定义一个MyFun函数 */
+{
+	printf("%d\n", x);
+}
+typedef char *fun(int);
+
+char *func_imp(int x){
+
+	static char *name[] = { "Illegal day",
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday",
+		"Saturday",
+		"Sunday" };
+
+	return ((x > 0 && x < 8) ? name[x] : name[0]);
+}
+void main(){
+	//函数指针(即函数的指针):
+	cout << "********函数指针********" << endl;
+	//1.函数指针的声明		
+	void(*func_p)(int);
+	//2.将指针指向函数 进行调用
+	func_p = &MyFun; /* 将MyFun函数的地址赋给FunP变量 */
+	//3.指针函数的调用
+	func_p(2);
+	cout << "********指针函数********" << endl;
+	//指针函数(即返回类型带指针的函数):
+	//1.声明指针
+		char *p;//指针,
+	//2.fun_imp的返回值作为
+		p = func_imp(2);
+	//3.
+		cout << p << endl;
+	/*辨别方式就是看函数名前面的指针*号有没有被括号（）包含，如果被包含就是函数指针，反之则是指针函数。
+	* 一个是指针变量，一个是函数
+	*/
+	system("pause");
+}
+
 ```
 
 ##5.构造函数
