@@ -7,8 +7,11 @@ Learning Android NDK started from 0.
 
 ##C++部分
 1.[c++中命名空间,引用,函数,构造函数笔记](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/Cpp.md)
+
 2.[ C++常用关键字new、delete、static、const、friend,operator+-,内存结构](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/cpp1.md)
+
 3.[ C++笔记(继承,多态,虚函数,模板函数,异常捕获)](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/cpp2.md)
+
 ##音视频处理
 ###in progress
 ##NDK
