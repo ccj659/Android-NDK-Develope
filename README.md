@@ -12,9 +12,18 @@ Learning Android NDK started from 0.
 
 3.[ C++笔记(继承,多态,虚函数,模板函数,异常捕获)](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/cpp2.md)
 
+4.[ C++学习笔记字符串string、vector_deque、queue,multiset、map、multimap、容器拷贝问题(复制粘贴,方便后面翻阅))](https://github.com/ccj659/Android-NDK-Develope/blob/master/CPP/cpp3.md)
+
+
+
 ##音视频处理
 ###in progress
+
+##Linux系统编程
+###in progress
+
 ##NDK
 ###in progress
+
 ##视频直播与通话
 ###in progress
